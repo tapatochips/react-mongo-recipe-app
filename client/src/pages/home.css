@@ -1,0 +1,71 @@
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .recipe-item {
+    flex: 0 0 calc(33.33% - 30px);
+    margin: 20px;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 5px;
+    max-height: 500px;
+    overflow: auto;
+    margin-bottom: 20px;
+
+  }
+  
+  .recipe-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-name {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .save-button-container {
+    margin-left: 10px; 
+  }
+  
+  .save-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button.saved {
+    background-color: #28a745;
+  }
+  
+  .instructions {
+    margin-bottom: 10px;
+  }
+  
+  .recipe-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .cooking-time {
+    font-size: 14px;
+    color: #777;
+  }
+  
